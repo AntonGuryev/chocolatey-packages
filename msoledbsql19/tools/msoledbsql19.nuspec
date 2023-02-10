@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>msoledbsql</id>
+    <version>19.1.0.0</version>
+    <packageSourceUrl>https://github.com/AntonGuryev/chocolatey-packages</packageSourceUrl>    
+    <owners>AntonGuryev</owners>
+    <title>Microsoft OLE DB Driver 19 for SQL Server</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://docs.microsoft.com/en-us/sql/connect/oledb/applications/installing-oledb-driver-for-sql-server</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>msoledbsql19 SQLServer Native OLEDB</tags>
+    <summary>The Microsoft OLE DB Driver for SQL Server provides native connectivity from Windows to Microsoft SQL Server and Microsoft Azure SQL Database.</summary>
+    <description>
+        The OLE DB Driver for SQL Server is a stand-alone data access application programming interface (API), used for OLE DB, that was introduced in SQL Server 2005 (9.x). OLE DB Driver for SQL Server delivers the SQL OLE DB driver in one dynamic-link library (DLL). It also provides new functionality above and beyond that supplied by the Windows Data Access Components (Windows DAC, formerly Microsoft Data Access Components, or MDAC). The OLE DB Driver for SQL Server can be used to create new applications or enhance existing applications that need to take advantage of features introduced in SQL Server 2005 (9.x), such as multiple active result sets (MARS), user-defined data types (UDT), query notifications, snapshot isolation, and XML data type support.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

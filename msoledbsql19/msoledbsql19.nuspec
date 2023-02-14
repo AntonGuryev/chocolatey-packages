@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>msoledbsql19</id>
-    <version>19.1.0.0</version>
+    <version>19.2.0.0</version>
     <packageSourceUrl>https://github.com/AntonGuryev/chocolatey-packages</packageSourceUrl>    
     <owners>AntonGuryev</owners>
     <title>Microsoft OLE DB Driver 19 for SQL Server</title>

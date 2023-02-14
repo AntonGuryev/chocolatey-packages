@@ -1,8 +1,8 @@
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://download.microsoft.com/download/b/e/5/be58d85a-66dd-4dac-87d4-30d224a317b9/en-US/19.1.0.0/x86/msoledbsql.msi'
-$url64      = 'https://download.microsoft.com/download/b/e/5/be58d85a-66dd-4dac-87d4-30d224a317b9/en-US/19.1.0.0/x64/msoledbsql.msi'
+$url        = 'https://download.microsoft.com/download/9/a/9/9a92e8f7-e6cc-467a-a909-e78eb671235d/en-US/19.0.0.0/x86/msoledbsql.msi'
+$url64      = 'https://download.microsoft.com/download/9/a/9/9a92e8f7-e6cc-467a-a909-e78eb671235d/en-US/19.0.0.0/x64/msoledbsql.msi'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -13,9 +13,9 @@ $packageArgs = @{
 
   softwareName  = 'Microsoft OLE DB Driver 19 for SQL Server'
 
-  checksum      = '0B33D8BF3E54BF8DBD8E94D0EB26780F25E4EE7668B832C78E17406A361A480F'
+  checksum      = '1F6AC4DF1F1711691CCAB53F10DD9977D772C33B537DF5D6DBD5A426C67BA9A2'
   checksumType  = 'sha256'
-  checksum64    = '28E74AEBA43C220FA52A93D26546381C3095C0B5D71A6A2B4AF540548ED2B725'
+  checksum64    = '8AB585BF5EA887AF858B59693A38B9D572D9BF6B843F5DB30CD0186E9EC87608'
   checksumType64= 'sha256'
 
   # MSI

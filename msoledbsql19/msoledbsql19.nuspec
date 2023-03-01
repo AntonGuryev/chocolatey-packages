@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>msoledbsql19</id>
+    <id>msoledbsql190</id>
     <version>19.0.0.0</version>
     <packageSourceUrl>https://github.com/AntonGuryev/chocolatey-packages</packageSourceUrl>    
     <owners>AntonGuryev</owners>
